@@ -1,1 +1,19 @@
+body {
+   background-color: #1a1a1a;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+}
+
+.bunga {
+    font-size: 80px;
+    animation: pusing 3s infinite linear;
+}
+
+@keyframes pusing {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
 
